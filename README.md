@@ -40,5 +40,6 @@ _Physical tables_ that hold _precomputed_ query results from one or more base ta
 Asynchronous materialized views are more powerful because they can store precomputed results from multiple base tables (internal and external tables) and support various aggregation operators
 
 ### Privileges
-which users can perform which operations on which objects
-two types of privilege models: _identity-based_ access control and _role-based_ access control
+Which users can perform which operations on which objects
+Two types of privilege models: _identity-based_ access control and _role-based_ access control
+You can first assign privileges to roles, and then assign roles to users
