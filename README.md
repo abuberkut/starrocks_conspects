@@ -43,3 +43,5 @@ Asynchronous materialized views are more powerful because they can store precomp
 Which users can perform which operations on which objects
 Two types of privilege models: _identity-based_ access control and _role-based_ access control
 You can first assign privileges to roles, and then assign roles to users
+
+-----------------
