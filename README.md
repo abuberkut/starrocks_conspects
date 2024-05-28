@@ -34,3 +34,11 @@ External catalog - you can use StarRocks as a query engine to directly query dat
 An internal table adopts a two-tier data distribution strategy, that is partitioning + bucketing, to achieve even data distribution. What's more, the replicas of each bucket are evenly distributed across BEs to guarantee high data availability.
 
 **External tables**. StarRocks only _stores the metadata_ of these external tables, and you can use these tables to query data from external data sources.
+
+### Materialized views (synchronous and asynchronous)
+_Physical tables_ that hold _precomputed_ query results from one or more base tables
+Asynchronous materialized views are more powerful because they can store precomputed results from multiple base tables (internal and external tables) and support various aggregation operators
+
+### Privileges
+which users can perform which operations on which objects
+two types of privilege models: _identity-based_ access control and _role-based_ access control
